@@ -1,0 +1,6 @@
+org\ch4rlesexe\cList\CList.class
+org\ch4rlesexe\cList\ListCommand.class
+org\ch4rlesexe\cList\ListCommand$ParsedGroup.class
+org\ch4rlesexe\cList\AdminCommand.class
+org\ch4rlesexe\cList\Group.class
+org\ch4rlesexe\cList\ListCommand$FinalGroup.class

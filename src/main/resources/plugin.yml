@@ -1,0 +1,18 @@
+name: CList
+version: '1.0-SNAPSHOT'
+main: org.ch4rlesexe.cList.CList
+api-version: '1.21'
+commands:
+  list:
+    description: Lists online players sorted by group.
+    usage: /list
+  clist:
+    description: Admin commands for CList.
+    usage: /clist <reload>
+permissions:
+  clist.admin:
+    description: Allows use of admin commands for CList.
+    default: op
+  clist.group.default:
+    description: Permission for the default group.
+    default: true

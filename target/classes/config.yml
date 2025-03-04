@@ -1,0 +1,27 @@
+# Main header message used as a fallback if no "list message" is defined.
+message: "&aPlayers online:"
+
+# Each group is associated with a permission node: "clist.group.<groupname>"
+
+# The first line is the header. It may contain {online}, replaced with total players online.
+# Each subsequent line defines a group. Must contain either ":" or " - " to parse.
+list message: |
+  &a     - List ( {online} online )
+  &4Owner(s) (ownercount): owner
+  &cAdministrator(s) (admincount): admin
+  &dEvent-Staff (eventstaffcount): eventstaff
+  &5Moderator(s) (modcount): mod
+  &6Champ(s) (champcount): champ
+  &5MVP(s) (mvpcount): mvp
+  &aVIP(s) (vipcount): vip
+  &eParticipant(s) (defaultcount): default
+
+# Global maximum players to show per group if not individually overridden. -1 = no limit
+max-per-group: 20
+
+# All other messages are configurable below:
+messages:
+  no_permission: "&cYou don't have permission."
+  clist_usage: "&eUsage: /clist <reload>"
+  reload_success: "&aCList configuration reloaded!"
+  unknown_subcommand: "&cUnknown subcommand."
